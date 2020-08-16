@@ -1,0 +1,48 @@
+.carousel-indicators
+{
+    top: 320px;
+}
+.carousel-indicators li
+{
+    background-color: red;
+    width: 3%;
+    height: 5px;
+}
+
+.home-content .carousel-indicators li
+{
+    background-color: #000000;
+    width: 9px;
+    height: 8px;
+    border-radius: 44px;
+    border: 2px solid #ffffff;
+}
+.home-content .carousel-indicators li.active
+{
+    background-color: #ffffff;
+    width: 9px;
+    height: 8px;
+    border-radius: 44px;
+    border: 2px solid ffffff;
+}
+
+.home-content .carousel-control-prev
+{
+ display: none;
+}
+.home-content .carousel-control-next
+{
+ display: none;
+}
+#navbarCollapse > div
+{
+    margin-left: auto !important;
+}
+.navbar-nav .nav-item .st-active
+{
+    color: #f55753!important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon
+{
+ display: none;
+}
